@@ -1,0 +1,11 @@
+ansible_user: ec2-user
+ansible_password: DevOps321
+MONGODB_HOST: mongodb.lpdaws.online
+REDIS_HOST: redis.lpdaws.online
+MYSQL_HOST: mysql.lpdaws.online
+RABBITMQ_HOST: rabbitmq.lpdaws.online
+CATALOGUE_HOST: catalogue.lpdaws.online 
+USER_HOST: user.lpdaws.online
+CART_HOST: cart.lpdaws.online
+SHIPPING_HOST: shipping.lpdaws.online
+PAYMENT_HOST: payment.lpdaws.online
