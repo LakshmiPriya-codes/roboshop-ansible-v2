@@ -1,4 +1,4 @@
-- name: configure "{{ componenet }}" server
+- name: configure "{{ component }}" server
   home: "{{ component }}"
   become: yes
   roles: 
