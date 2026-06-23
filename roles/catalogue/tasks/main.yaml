@@ -1,16 +1,16 @@
 
 - name: application setup 
   import_role:
-  name: common
-  tasks_from: app-setup.yaml
+    name: common
+    tasks_from: app-setup.yaml
 - name: node js setup
   import_role:
-  name: common
-  tasks_from: nodejs 
+    name: common
+    tasks_from: nodejs 
 - name: systemd setup
   import_role:
-  name: common
-  tasks_from: systemd-setup 
+    name: common
+    tasks_from: systemd-setup 
 
 - name: copy catalogue service
   template:
