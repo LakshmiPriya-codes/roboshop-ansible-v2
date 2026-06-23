@@ -1,0 +1,7 @@
+- name: This is the common task
+  debug:
+   msg: "Hi, from common task execution"
+ #this should load another role called common   
+- name: import common role
+  import_role:
+        name: common 
